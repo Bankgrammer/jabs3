@@ -44,6 +44,10 @@ body {
   font-weight: bolder;
 }  
 
+.content ul li {
+ list-style-type: none;
+}
+
 
 /* header */
 /*header {
@@ -91,11 +95,37 @@ body {
   padding: 10px 20px;
   text-transform: uppercase;
   border: none;
+  border-radius: 50px;
+  margin-right: 10px;
   font-weight: 800;
 }
 
 .btnD1:hover {
   color: #fff;
+  background: none;
+  border: 1px solid #ff4600;
+  translate: transition 2s ease-out;
+  text-decoration: none;
+}
+
+.btnD2{
+  display: inline-block;
+  margin: 1em 0 0;
+  background: #ff4600;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  margin-right: 10px;
+  font-weight: 800;
+}
+
+.btnD2:hover {
+  color: #fff;
+  background: none;
+  translate: transition 2s ease-out;
+  border: 1px solid #ff4600;
   text-decoration: none;
 }
 
@@ -521,23 +551,6 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Contact*/
 
 
@@ -550,6 +563,7 @@ h2 {
 
 
 /*social icons*/
+
 
 
 
@@ -592,6 +606,7 @@ h2 {
 /*Media Queries*/
 
 @media (max-width: 500px) {
+  .content-2 .row .col-1
   #contact-b .contact-info,
   .items {
     grid-template-columns: 1fr; }
