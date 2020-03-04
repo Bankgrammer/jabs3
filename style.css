@@ -606,7 +606,6 @@ h2 {
 /*Media Queries*/
 
 @media (max-width: 500px) {
-  .content-2 .row .col-1
   {display: none}
   #contact-b .contact-info,
   .items {
